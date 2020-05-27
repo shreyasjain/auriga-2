@@ -1,3 +1,193 @@
-h1{
-    color: red;
+.main-container{
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid silver;
+    border-top: 10px solid black;
+}
+.navbar .topleft{
+    margin: 10px;
+    font-size: x-large;
+    float: left;
+}
+.navbar .topright{
+    float: right;
+    margin: 10px;
+}
+.clearfix{
+    overflow: auto;
+}
+.container-1 h1,p{
+    text-align: center;
+}
+.container-1 h1{
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 10px;
+    margin-top: 50px;
+}
+.container-2,.container-4{
+    background-color: silver;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-2 h3{
+    width: 15%;
+    text-align: right;
+    font-size: 25px;
+}
+label{
+    width: 30%;
+    text-align: right;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.container-2 h5{
+    margin-left: 22%;
+}
+.container-2 textarea{
+    width: 70%; 
+}
+.container-2 h5{
+    line-height: 0px;
+}
+.container-2 select{
+    width: 40%;
+    height: 50px;
+}
+.l1{
+    display: inline-block;
+}
+.container-2 p{
+    
+    width: 30%;
+    color: grey;
+    font-size: 25px;
+}
+.container-2 button{
+    width: 25%;
+    margin-left:22%;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+}
+.container-2 .smallfonts{
+    color: gray;
+    font-size: 15px;
+}
+.container-2{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.container-3 .li,.li1{
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-color: silver;
+    font-size: x-large;
+    padding: 5px;
+}
+.container-3 .li1{
+    float: right;
+    background-color: white;
+    font-size: larger;
+}
+.container-4{
+    margin: 0px;
+}
+.r411 .h11{
+    margin: 10px;
+}
+.r411 .h11,h5{
+    display: inline;
+    width: 30%;
+}
+.r411 h5{
+    margin-left: 20px;
+    color: gray;
+}
+.r411 .h12{
+    float: right;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+.r421 textarea{
+    width: 80%;
+}
+.r421 button{
+    width: 15%;
+    height: 40px;
+    position: relative;
+    top: 25%;
+}
+.r4211,.r4212{
+    display: inline-block;
+}
+.r43 p{
+    text-align: left;
+}
+.r44{
+    width: 100%;
+    background-color: darkgray;
+    height: 70px;
+    
+}
+.r44 h4{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.r45 span,.r47 span{
+    color: gray;
+}
+.r46,.r48{
+    width: 70%;
+    background-color: darkgrey;
+}
+.r48,.r47{
+    margin-right: 10px;
+}
+.r49{
+    width: 50%;
+    background-color: darkgrey;
+    height: 120px;
+    position: relative;
+    top: 40%;
+    margin-left: 25%;
+}
+.r49 h2{
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+.r49 h4{
+    position: relative;
+    top: 25%;
+    text-align: center;
+    color: slategray;
+    
+}
+.c4{
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.fl,.fr{
+    color: gray;
+    margin-top: 0px;
+}
+.s1,.s2,.s3{
+    display: inline-block;
+    width: 20%;
+}
+.r47{
+    text-align: right;
+}
+.r48{
+    margin-left: 30%;
 }
