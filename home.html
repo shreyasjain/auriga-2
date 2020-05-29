@@ -23,42 +23,44 @@
         </div>
 
         <div class="container-2">
-            
+
             <form action="">
                 <div class="s0 clearfix">
                     <label class="s1" for="reciever">
                         To:
                     </label>
                     <select class="s2" name="reciever" id=""></select>
-                    <p class="s3" ><< Phone number or name</p> 
-                </div>
+                    <p class="s3">
+                        << Phone number or name</p> </div> <br>
 
-                <br>
-
-                <label class="s1 msg" for="message">
-                    Message:
-                </label>
-                <textarea name="message" id="" rows="10"></textarea>
-                <h5><u>Attach a photo to this text message.</u></h5>
-                <br>
-                <button class="l1">Send Text Message</button>
-                <h1 class="smallfonts l1">Or,<u>schedule it for later delivery.</u></h1>
+                            <label class="s1 msg" for="message">
+                                Message:
+                            </label>
+                            <textarea name="message" id="" rows="10"></textarea>
+                            <h5><u>Attach a photo to this text message.</u></h5>
+                            <br>
+                            <button class="l1">Send Text Message</button>
+                            <h1 class="smallfonts l1">Or,<u>schedule it for later delivery.</u></h1>
 
             </form>
         </div>
 
         <div class="container-3">
-            <ul>
+            <a class="li" href="" onclick="recentConversations()">Recent Conversations</a>
+            <a class="li" href="">All Conversations</a>
+            <a class="li" href="">Photos</a>
+            <a class="li1" href="">Change Password</a>
+            <!-- <ul>
                 <li class="li"><u>Recent Conversations</u></li>
                 <li class="li"><u>All Conversations</u></li>
                 <li class="li"><u>Photos</u></li>
                 <li class="li1"><u>Change Password</u></li>
-            </ul>
+            </ul> -->
         </div>
 
         <div class="container-4">
-            <div class="c4">
-                <div class="r41">
+            <div class="c4" id="dynamicContent">
+                <!-- <div class="r41">
                     <div class="r411 clearfix">
                         <h1 class="h11">(508)555-1234</h1>
                         <h5><u>Set a name for this number.</u></h5>
@@ -154,19 +156,179 @@
                 <div class="r49">
                     <h2><u>Load More Messages...</u></h2>
                     <h4>There are 21 unread messages</h4>
+                </div> -->
+
+                <div class="allConversations">
+                    <h1 class="ach1">Top Conversations</h1>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p> <span class="tag">New</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+
+                    <h1 class="ach1">All Conversations</h1>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p><span class="tag">New</span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p><span class="tag">New</span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acrows clearfix">
+
+                        <div class="acleft">
+                            <h2>Sarah Kelly</h2>
+                            <h4>151 messages</h4>
+                        </div>
+
+                        <div class="acright">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque ab ipsam saepe debitis
+                                adipisci ullam, nulla distinctio fugiat cumque, laboriosam veniam sequi hic quasi
+                                temporibus numquam iste, animi incidunt iusto?</p>
+                        </div>
+
+                    </div>
+
                 </div>
-
             </div>
-
         </div>
+
+
 
         <footer>
             <h4 class="fl">Textify 2011</h4>
             <h4 class="fr">All data is kept secure on our website..,</h4>
         </footer>
+
+
     </div>
 
-
+    <script src="./app.js"></script>
 </body>
 
 </html>
