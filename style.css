@@ -86,6 +86,7 @@ label{
     background-color: silver;
     font-size: x-large;
     padding: 5px;
+    border-bottom: 2px solid darkgrey;
 }
 .container-3 .li1{
     float: right;
