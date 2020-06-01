@@ -239,3 +239,34 @@ a{
 .tab-content{
     display: none;
 }
+
+#tab3-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.card{
+    background: white;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+}
+
+.card .pic{
+    height: 130px;
+    width: 130px;
+    background: url("https://img.icons8.com/pastel-glyph/2x/user-male.png");
+    background-size: contain;
+    margin: 10px;
+}
+
+.card .text{
+    color: black;
+    margin: 10px;
+}
+
+.card .subtext{
+    color: darkgrey;
+    margin: 10px;
+}
