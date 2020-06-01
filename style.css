@@ -240,7 +240,7 @@ a{
     display: none;
 }
 
-#tab3-content{
+#tab-3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
