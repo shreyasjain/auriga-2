@@ -1,6 +1,6 @@
 .main-container{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 1px solid silver;
     border-top: 10px solid black;
 }
@@ -69,7 +69,7 @@ label{
     margin-top: 20px;
     height: 40px;
     font-size: 18px;
-    padding: 10px;
+    overflow: hidden;
 }
 .container-2 .smallfonts{
     color: gray;
@@ -148,25 +148,23 @@ label{
 .r48,.r47{
     margin-right: 10px;
 }
-.r49{
+.r49 {
     width: 50%;
     background-color: darkgrey;
     height: 120px;
-    position: relative;
-    top: 40%;
     margin-left: 25%;
+    overflow: hidden;
 }
 .r49 h2{
     position: relative;
-    top: 40%;
+    top: 10%;
     text-align: center;
 }
-.r49 h4{
+.r49 h4 {
     position: relative;
-    top: 25%;
+    top: 0%;
     text-align: center;
     color: slategray;
-    
 }
 
 .c4{
@@ -246,11 +244,17 @@ a{
     justify-content: space-between; 
 }
 
-.card{
+
+.card {
     background: white;
-    width: 150px;
-    height: 200px;
+    width: 180px;
+    height: 240px;
     margin: 20px;
+    box-shadow: 10px 10px 5px darkgrey;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .card .pic{
@@ -258,7 +262,7 @@ a{
     width: 130px;
     background: url("https://img.icons8.com/pastel-glyph/2x/user-male.png");
     background-size: contain;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .card .text{
