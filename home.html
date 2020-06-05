@@ -30,6 +30,7 @@
                         To:
                     </label>
                     <select class="s2" name="reciever" id=""></select>
+
                     <p class="s3">
                         << Phone number or name</p> </div> <br>
 
@@ -46,23 +47,41 @@
         </div>
 
         <div class="container-3">
-            <a class="li" id="a1" href="" onclick="tabFunctioning(event,'tab-content','tab1-content','a1')">Recent
-                Conversations</a>
-            <a class="li" id="a2" href="" onclick="tabFunctioning(event,'tab-content','tab2-content','a2')">All
-                Conversations</a>
-            <a class="li" id="a3" href="" onclick="tabFunctioning(event,'tab-content','tab3-content','a3')">Photos</a>
-            <a class="li1" href="">Change Password</a>
+            <div class="flexing tabs" style="flex-wrap: wrap-reverse;">
+                <div>
+                    <a class="li" id="a1" href=""
+                        onclick="tabFunctioning(event,'tab-content','tab1-content','a1')">Recent
+                        Conversations</a>
+                    <a class="li" id="a2" href="" onclick="tabFunctioning(event,'tab-content','tab2-content','a2')">All
+                        Conversations</a>
+                    <a class="li" id="a3" href=""
+                        onclick="tabFunctioning(event,'tab-content','tab3-content','a3')">Photos</a>
+                </div>
+                <div>
+                    <a class="li1" href="">Change Password</a>
+                </div>
+            </div>
         </div>
 
         <div class="container-4">
             <div class="c4" id="dynamicContent">
                 <div class="tab-content" id="tab1-content">
                     <div class="r41">
-                        <div class="r411 clearfix">
-                            <h1 class="h11">(508)555-1234</h1>
-                            <h5><u>Set a name for this number.</u></h5>
-                            <h1 class="h12"><u>View All Conversations >></u></h1>
+                        <div class="r411 flexing">
+                            <div style="display: flex; flex-wrap: wrap;">
+                                <div>
+                                    <h1 class="h11" style="font-size: 3vw;">(508)555-1234</h1>
+                                </div>
+                                <div>
+                                    <h5 style="    font-size: 1.5vw;"><u>Set a name for this number.</u></h5>
+                                </div>
+                            </div>
+                            <div>
+                                <h1 class="h12" style="font-size: 3vw;"><u>View All Conversations >></u></h1>
+                            </div>
                         </div>
+
+
                         <div class="r412"></div>
                     </div>
 
@@ -70,7 +89,7 @@
                         <h4>New text message:</h4>
                         <div class="r421">
                             <textarea class="r4211" name="" id="" cols="200" rows="4"></textarea>
-                            <button class="r4212"><u>Send Message</u></button>
+                            <button class="r4212"><u style="    font-size: 1.8vw;">Send Message</u></button>
                         </div>
                     </div>
 
@@ -157,8 +176,8 @@
                     </div>
 
                     <div class="r49">
-                        <h2><u>Load More Messages...</u></h2>
-                        <h4>There are 21 unread messages</h4>
+                        <h2 style="font-size: 3vw;"><u>Load More Messages...</u></h2>
+                        <h4 style="font-size: 2vw;">There are 21 unread messages</h4>
                     </div>
                 </div>
 
@@ -337,7 +356,7 @@
 
                 <div class="tab-content" id="tab3-content">
                     <div style="border-bottom: 1px solid darkgray;">
-                    <h1>Photos From All Conversations.</h1>
+                        <h1>Photos From All Conversations.</h1>
                     </div>
                     <div id="tab-3">
 
@@ -412,14 +431,14 @@
                             <div class="subtext">Sent on: 01/01/2020</div>
                         </div>
 
-                       
+
 
                     </div>
 
                     <div class="r49">
-                            <h2><u>Load More photos...</u></h2>
-                            <h4>There are 21 more images</h4>
-                        </div>
+                        <h2 style="font-size: 2vw;"><u>Load More photos...</u></h2>
+                        <h4 style="font-size:1.3vw">There are 21 more images</h4>
+                    </div>
 
                 </div>
 
@@ -427,7 +446,7 @@
 
         </div>
 
-        <footer>
+        <footer class="flexing">
             <h4 class="fl">Textify 2011</h4>
             <h4 class="fr">All data is kept secure on our website..,</h4>
         </footer>

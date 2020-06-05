@@ -6,7 +6,7 @@
 }
 .navbar .topleft{
     margin: 10px;
-    font-size: x-large;
+    font-size: 2vw;
     float: left;
 }
 .navbar .topright{
@@ -20,10 +20,11 @@
     text-align: center;
 }
 .container-1 h1{
-    font-weight: bolder;
-    font-size: 50px;
-    line-height: 10px;
-    margin-top: 50px;
+        font-weight: bolder;
+        font-size: 5vw;
+        line-height: 3vw;
+        /* margin-top: 50px; */
+    
 }
 .container-2,.container-4{
     background-color: silver;
@@ -59,18 +60,21 @@ label{
     display: inline-block;
 }
 .container-2 p{
-    
-    width: 30%;
+    width: 20vw;
     color: grey;
     font-size: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .container-2 button{
     width: 25%;
-    margin-left:23%;
+    margin-left: 23%;
     margin-top: 20px;
     height: 40px;
     font-size: 18px;
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 .container-2 .smallfonts{
     color: gray;
@@ -90,9 +94,15 @@ label{
     border-bottom: 2px solid darkgrey;
 }
 .container-3 .li1{
-    float: right;
+    /* float: right; */
     background-color: white;
-    font-size: larger;
+    /* font-size: larger; */
+    flex-wrap: wrap-reverse;
+}
+.flexing{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .container-4{
     margin: 0px;
@@ -109,7 +119,7 @@ label{
     color: gray;
 }
 .r411 .h12{
-    float: right;
+    /* float: right; */
     margin-top: 2px;
     margin-right: 5px;
 }
@@ -152,7 +162,7 @@ label{
 .r49 {
     width: 50%;
     background-color: darkgrey;
-    height: 120px;
+    height: 15vw;
     margin-left: 25%;
     overflow: hidden;
 }
@@ -187,6 +197,8 @@ label{
     display: inline-block;
     width: 20%;
     vertical-align: top;
+    font-size: 3vw;
+
 }
 .r47{
     text-align: right;
@@ -197,6 +209,7 @@ label{
 
 .ach1{
     border-bottom: 3px solid darkgray;
+    font-size: 3vw;
 }
 .acleft{
     width: 20%;
@@ -209,7 +222,7 @@ label{
     border-bottom: 1px solid black;
 }
 .acleft >h4{
-    font-size: 15px;
+    font-size: 1.3vw;
     position: relative;
     top: -15px;
     color: darkgray;
@@ -221,7 +234,7 @@ label{
     height: 85px;
 }
 .acright > p{
-    text-align: left;
+    /* text-align: left; */
     font-size: 15px;
 }
 .tag{
@@ -275,3 +288,7 @@ a{
     color: darkgrey;
     margin: 10px;
 }
+/* .tabs .li,.li1{
+    font-size: 2vw;
+
+} */
