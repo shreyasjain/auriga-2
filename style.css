@@ -53,6 +53,7 @@ label{
 .container-2 select{
     width: 40%;
     height: 50px;
+    color: white !important;
 }
 .l1{
     display: inline-block;
