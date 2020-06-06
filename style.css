@@ -95,7 +95,7 @@ label{
 }
 .container-3 .li1{
     /* float: right; */
-    background-color: white;
+    background-color: #ffffff00;
     /* font-size: larger; */
     flex-wrap: wrap-reverse;
 }
@@ -234,7 +234,7 @@ label{
     height: 85px;
 }
 .acright > p{
-    /* text-align: left; */
+    text-align: left;
     font-size: 15px;
 }
 .tag{
@@ -292,3 +292,86 @@ a{
     font-size: 2vw;
 
 } */
+
+@media(max-width:960px){
+    
+    .container-2 select {
+        width: 30vw;
+        height: 50px;
+        color: white !important;
+    }
+    .container-2 textarea {
+        width: 35vw;
+        height: 10vw;
+    }
+    .container-2 button {
+        width: 20vw;
+    }
+    .container-3 .li, .li1 {
+        font-size: 3vw;
+    }
+    .the-para{
+        font-size: 2vw;
+    }
+    .r421{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    r421 textarea {
+        width: 60vw;
+        height: 10vw;
+    }
+    .r421 button {
+        width: 20vw;
+        height: 5vw;
+        /* vertical-align: top; */
+    }
+    .acleft {
+        width: 20vw;
+        /* float: left; */
+        text-align: right;
+        height: 6vw;
+    }
+    .acright {
+        width: 65vw;
+        /* float: right; */
+        height: 10vw;
+    }
+    .acrows{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .acleft > h2 {
+        font-size: 3vw;
+        border-bottom: 1px solid black;
+    }
+    .acright > p {
+        text-align: left;
+        font-size: 2vw;
+    }
+    .tag {
+        background: black;
+        color: white;
+        padding: 1px;
+        font-size: 1vw;
+        vertical-align: middle;
+    }
+    .tab-content h1{
+        font-size: 25px;
+    }
+    
+}
+
+@media(max-width:590px){
+    .container-2 h5 {
+        margin-left: 7vw;
+    }
+    .container-3 .li, .li1 {
+        font-size: 2vw;
+    }
+}
+
+@media(max-width:300px){
+
+}
